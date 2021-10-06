@@ -4,7 +4,7 @@
 
 ## 1.1 COMPUTER MOUSE 
 Identify the types of testing you would perform on a computer mouse, to make sure that it is of the highest quality.
-- Check if the mouse is optical or nor. Usually optical mouses won’t need cleaning (or much of it) as there are no moving parts in it. Older models used to have a ball, where dust and other stuff would be a problem if accumulated.
+- Check if the mouse is optical or not. Usually optical mouses won’t need cleaning (or much of it) as there are no moving parts in it. Older models used to have a ball, where dust and other stuff would be a problem if accumulated.
 - Check both right and left click buttons are working correctly. Does the computer register the clicks?
 - Check that the double-click function is working correctly. Also test for time between clicks to test what is considered a double-click.
 - Test the scroller on the mouse. Does it correctly scroll in the specified direction that the settings are saying?
