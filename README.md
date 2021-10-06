@@ -28,7 +28,10 @@ The most obvious test that could have been implemented would be to test that the
 This is very oversimplified, since the calculations made by NASA and Lockheed Martin are very complex. The tests could/would have helped, but with aerospace engineering requiring very detailed and precise calculations, the teams should have agreed on a standard beforehand. 
 
 
-# 3. Investigation of tools
+# 3 Investigation of tools
+
+## 3.1 JUnit 5
+
 **@Tag**: Tests can be tagged with a custom tag. You can put a tag on all integration tests and a tag on unit tests. You can choose to execute all tags under a given tag name, so you could choose to only run all unit tests, by this you are essentially filtering using tags.
 
 **@Disabled**: You can disable specific tests if you choose. This is useful for tests where functionality hasn't been implemented yet.
@@ -46,3 +49,64 @@ This is very oversimplified, since the calculations made by NASA and Lockheed Ma
 assumeFalse, assumeTrue: These are both methods of the assumption class, which are used to validate a given assumption. When an assumption fails it will result in a test being aborted, instead of failure as seen with assertions.
 
 
+## 3.2 Mocking frameworks
+
+For c# it seems that the two most popular mocking frameworks are MOQ and NSubstitute. 
+
+### Similarities and differences
+
+In form of limitations and capabilities, it would overall seem that both frameworks are capable of the same tasks, although there is some variation of how well each does, and some of the points comes down to personal prefrence. To see some of the differences lets look at readability, and flexability of matching arguments. 
+
+### **Mock Creation**
+
+**MOQ**
+
+```
+var mock = new Mock<IRepository>();
+``` 
+
+**NSubstitute**
+
+````
+var mock = Substitute.For<IRepository>(); 
+````
+
+MOQ is easier to read, but NS is not a lot harder to understand.
+
+### **Mocking properties** 
+
+**MOQ**
+````
+mock.Setup(foo => foo.Users).Returns(userList);
+````
+**NSubstitute**
+````
+mock.Users.Returns(userList);
+````
+
+NSubstitute is a lot easier to read and understand, with more simplicity. 
+
+
+### **Matching Arguments**
+
+**MOQ**
+````
+It.IsAny<int>())
+It.IsInRange(0, 10, Range.Inclusive) 
+It.IsIn(Enumerable.Range(1, 5))
+It.IsNotIn(Enumerable.Range(1, 5))
+It.IsNotNull<string>())
+It.IsRegex("abc"))
+It.Is<int>(i => i < 10))
+````
+**NSubstitute**
+````
+Arg.Any<int>())
+Arg.Is<int>(i => i < 10))
+````
+
+A lot more built in options are provided my MOQ, providing more flexability in validation.
+
+### **My preference**
+
+Generally i prefer the readability of NSubstitute. Although it does seem that MOQ is a bit more customisable. I think i will need to have to work a bit more in depth with both frameworks before i can give a definitive answer. From the forum posts, blog posts and articles I've read it does not seem like NSubstitute has any limitations compared to MOQ, even though it seems like MOQ can do more detailed results. I will most likely go with NSubstitute until i reach a wall that was not described in anything I've read so far. 
