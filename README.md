@@ -110,3 +110,12 @@ A lot more built in options are provided my MOQ, providing more flexability in v
 ### **My preference**
 
 Generally i prefer the readability of NSubstitute. Although it does seem that MOQ is a bit more customisable. I think i will need to have to work a bit more in depth with both frameworks before i can give a definitive answer. From the forum posts, blog posts and articles I've read it does not seem like NSubstitute has any limitations compared to MOQ, even though it seems like MOQ can do more detailed results. I will most likely go with NSubstitute until i reach a wall that was not described in anything I've read so far. 
+
+### 3.1 sources
+[NSubstitute webpage](https://nsubstitute.github.io/)
+
+[MOQ Wiki](https://github.com/Moq/moq4/wiki/Quickstart)
+
+[Comparing .NET Mocking Libraries](https://www.danclarke.com/comparing-dotnet-mocking-libraries)
+
+[Moq vs NSubstitute - Who is the winner?](https://dev.to/cloudx/moq-vs-nsubstitute-who-is-the-winner-40gi)
