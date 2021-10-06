@@ -1670,6 +1670,16 @@
         "build": {
           "build/netcoreapp2.1/xunit.runner.visualstudio.props": {}
         }
+      },
+      "StringUtility/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/StringUtility.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StringUtility.dll": {}
+        }
       }
     }
   },
@@ -5906,41 +5916,58 @@
         "xunit.runner.visualstudio.2.4.3.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "StringUtility/1.0.0": {
+      "type": "project",
+      "path": "../StringUtility/StringUtility.csproj",
+      "msbuildProject": "../StringUtility/StringUtility.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
       "Microsoft.NET.Test.Sdk >= 16.9.4",
+      "StringUtility >= 1.0.0",
       "coverlet.collector >= 3.0.2",
       "xunit >= 2.4.1",
       "xunit.runner.visualstudio >= 2.4.3"
     ]
   },
   "packageFolders": {
-    "/Users/asger/.nuget/packages/": {}
+    "C:\\Users\\Asger\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/asger/Documents/GitHub/2 sem/Test/Assignment2/StringUtility/StringUtility.Test/StringUtility.Test.csproj",
+      "projectUniqueName": "C:\\Users\\Asger\\Documents\\GitHub\\Assignment2\\StringUtility\\StringUtility.Test\\StringUtility.Test.csproj",
       "projectName": "StringUtility.Test",
-      "projectPath": "/Users/asger/Documents/GitHub/2 sem/Test/Assignment2/StringUtility/StringUtility.Test/StringUtility.Test.csproj",
-      "packagesPath": "/Users/asger/.nuget/packages/",
-      "outputPath": "/Users/asger/Documents/GitHub/2 sem/Test/Assignment2/StringUtility/StringUtility.Test/obj/",
+      "projectPath": "C:\\Users\\Asger\\Documents\\GitHub\\Assignment2\\StringUtility\\StringUtility.Test\\StringUtility.Test.csproj",
+      "packagesPath": "C:\\Users\\Asger\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Asger\\Documents\\GitHub\\Assignment2\\StringUtility\\StringUtility.Test\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "/Users/asger/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Asger\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Asger\\Documents\\GitHub\\Assignment2\\StringUtility\\StringUtility\\StringUtility.csproj": {
+              "projectPath": "C:\\Users\\Asger\\Documents\\GitHub\\Assignment2\\StringUtility\\StringUtility\\StringUtility.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -5989,7 +6016,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }

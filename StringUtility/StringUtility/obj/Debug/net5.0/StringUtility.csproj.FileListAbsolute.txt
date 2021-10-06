@@ -1,0 +1,12 @@
+C:\Users\Asger\Documents\GitHub\Assignment2\StringUtility\StringUtility\bin\Debug\net5.0\StringUtility.deps.json
+C:\Users\Asger\Documents\GitHub\Assignment2\StringUtility\StringUtility\bin\Debug\net5.0\StringUtility.dll
+C:\Users\Asger\Documents\GitHub\Assignment2\StringUtility\StringUtility\bin\Debug\net5.0\ref\StringUtility.dll
+C:\Users\Asger\Documents\GitHub\Assignment2\StringUtility\StringUtility\bin\Debug\net5.0\StringUtility.pdb
+C:\Users\Asger\Documents\GitHub\Assignment2\StringUtility\StringUtility\obj\Debug\net5.0\StringUtility.csprojAssemblyReference.cache
+C:\Users\Asger\Documents\GitHub\Assignment2\StringUtility\StringUtility\obj\Debug\net5.0\StringUtility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asger\Documents\GitHub\Assignment2\StringUtility\StringUtility\obj\Debug\net5.0\StringUtility.AssemblyInfoInputs.cache
+C:\Users\Asger\Documents\GitHub\Assignment2\StringUtility\StringUtility\obj\Debug\net5.0\StringUtility.AssemblyInfo.cs
+C:\Users\Asger\Documents\GitHub\Assignment2\StringUtility\StringUtility\obj\Debug\net5.0\StringUtility.csproj.CoreCompileInputs.cache
+C:\Users\Asger\Documents\GitHub\Assignment2\StringUtility\StringUtility\obj\Debug\net5.0\StringUtility.dll
+C:\Users\Asger\Documents\GitHub\Assignment2\StringUtility\StringUtility\obj\Debug\net5.0\ref\StringUtility.dll
+C:\Users\Asger\Documents\GitHub\Assignment2\StringUtility\StringUtility\obj\Debug\net5.0\StringUtility.pdb
